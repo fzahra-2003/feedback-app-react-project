@@ -1,0 +1,33 @@
+.btn{
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn_primary{
+    background-color: #202142;
+}
+
+.btn_secondary{
+    background-color: #ff6a95;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+.btn:disabled {
+    background-color: #cccccc;
+    color: #333;
+    cursor: auto;
+}
+
+.btn:disabled:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
