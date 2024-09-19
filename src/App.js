@@ -31,6 +31,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <h1> HOME PAGE </h1>
       <div className='container'>
       <Routes>
       <Route
