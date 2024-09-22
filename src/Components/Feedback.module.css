@@ -27,7 +27,7 @@
     left: -10px;
 }
 
-.btn_remove {
+.btn_remove, .btn_edit {
     background: none;    /* Remove button background */
     border: none;        /* Remove button border */
     padding: 0;          /* Remove button padding */
@@ -41,5 +41,13 @@
     position: absolute;
     top: 10px;
     right: 10px;
+}
+
+.btn_edit i {
+    color: #202142;
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
 }
 

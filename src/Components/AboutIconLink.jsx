@@ -1,8 +1,13 @@
-import React from 'react'
-
+import React from 'react';
+import { FaQuestion } from 'react-icons/fa';
+import classes from  './About.module.css'
+import { Link } from 'react-router-dom'; 
 function AboutIconLink() {
     return (
-        <div>
+        <div className={classes.about_link}>
+            <Link to={{pathname:'/about', search:'?sort=name',hash: '#hello'}}>
+                <FaQuestion size={30}/>
+            </Link>
             
         </div>
     )

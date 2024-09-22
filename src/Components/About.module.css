@@ -1,0 +1,23 @@
+.about_link {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.about_link a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.about_link a:hover {
+    color: #ff6a95;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin: 10px 0;
+}
